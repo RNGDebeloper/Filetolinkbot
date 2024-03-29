@@ -9,8 +9,8 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '20389440'))
-    API_HASH = str(getenv('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457'))
+    API_ID = int(getenv('API_ID', '24260003'))
+    API_HASH = str(getenv('API_HASH', 'a7fb5ac26f0e0a5742c43675fdec8f54'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', '6640714840:AAFOoiK76PdagSD27se4pHHZKcJmvLdAfDc'))
     name = str(getenv('name', 'Nami_Beta_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
